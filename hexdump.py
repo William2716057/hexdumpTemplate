@@ -2,9 +2,9 @@ def hexdump():
     file_path = 'output.bmp'
     output_path = 'hex.txt'
 
-    try:
+    try: # open file in binary mode and output in write mode
         with open(file_path, 'rb') as file, open(output_path, 'w') as output_file:
-            offset = 0
+            offset = 0 #initialise byte offset (position in file) to zero
             chunk = file.read(16)  
             while chunk: 
                 hex_part = ' '.join(f'{byte:02x}' for byte in chunk)
