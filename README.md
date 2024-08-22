@@ -19,3 +19,15 @@ Below is an example of what the output might look like in the hex dump file:
 00000010  00 00 01 00 00 00 01 00 01 00 18 00 00 00 00 00  ................
 00000020  00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00  ................
 ```
+
+- The first column shows the byte offset.
+- The middle part displays the hexadecimal values of the bytes.
+- The last part shows the corresponding ASCII characters, with non-printable characters replaced by a dot (.).
+
+## Customization
+- File path: Modify file_path to specify the input file.
+- Output path: Change output_path to define where the hex dump will be written.
+- Chunk size: The script reads 16 bytes at a time, but you can adjust this by changing the argument in the file.read() function.
+
+## Requirements
+- Python 3.x
