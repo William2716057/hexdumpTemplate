@@ -1,4 +1,4 @@
-# Hexdump Utility
+# Hexdump Text File Creator
 This Python script reads a file in binary mode and produces a hex dump of its contents. The hex dump includes the byte offset, the hexadecimal representation of the bytes, and an ASCII representation of printable characters.
 
 ## Features
