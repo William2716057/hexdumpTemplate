@@ -18,6 +18,9 @@ def hexdump():
     output_path = 'hex_output.txt'  # Optional: Customize the name of the output file
 ```
 3. Run the script.
+```
+python hexdump.py
+```
 4. After running the script, the hex dump will be written to the specified output file (e.g., hex_output.txt).
 
 ## Example Output
