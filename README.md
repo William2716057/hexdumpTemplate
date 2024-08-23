@@ -8,7 +8,15 @@ This Python script reads a file in binary mode and produces a hex dump of its co
 - Handles files chunk by chunk, making it efficient for large files.
 ## Usage
 1. Clone the repository and navigate to the project directory.
+```
+git clone https://github.com/William2716057/hexdumpTemplate.git
+```
 2. Update the file_path in the script to point to the file you want to analyze. You can also modify the output_path to specify the name of the output file.
+```
+def hexdump():
+    file_path = 'path/to/your/file'  # Replace with the path to your file
+    output_path = 'hex_output.txt'  # Optional: Customize the name of the output file
+```
 3. Run the script.
 4. After running the script, the hex dump will be written to the specified output file (e.g., hex_output.txt).
 
